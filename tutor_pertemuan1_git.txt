@@ -1,0 +1,43 @@
+PERTEMUAN 1 INSTALASI DAN PERINTAH DASAR GIT
+
+APA ITU VERSION CONTROL SYSTEM DAN GIT?
+Version Control System adalah sistem yang mengelola setiap perubahan di sistem kita. 
+jadi kita hanya perlu menyimpan satu file saja namun segala perubahannya bisa terlihat
+
+MENGOPERASIKAN GIT MELALUI TERMINAL 
+https://github.com
+email jocelinlin40@gmail.com
+pass : Joce1425
+
+Untuk mengatur nama dan email di git kita bisa menggunakan 
+git config -global user.name”Nama anda”
+git config -global user.email “email@example.com”
+
+
+Didalam Git ada yang namanya repository 
+itu ialah tempat penyimpanan source code atau file project yang dikelola menggunakan git pada platform github
+
+Jadi yang harus dilakukan yang pertama : 
+1. Buat akun github dari website 
+2. download github app
+3. download git from browser 
+4. buat folder baru ( boleh sesuai atau tidak namanya dengan repository di website) 
+5. lalu setelah download git kita bisa buka folder yang dimau untuk tempat push ke github
+6. klik kanan -> show more opetin -> git bash 
+ada beberapa perintah yang bisa digunakan dalam terminal
+Untuk mengatur nama dan email di git kita bisa menggunakan 
+git config -global user.name”Nama anda”
+git config -global user.email “email@example.com”
+git init - untuk membuat repository yang ada di file lokal dan berlokasi di folder git.
+git branch -m main - untuk mengubah default branch bawaan dari master menjadi main
+
+ADA BEBERAPA KELOMPOK KONDISI FILE DALAM GIT
+1. Modified - membuat / merevisi suatu file namun belum disimpan ke version control 
+2. staged ( file sudah ditandai tapi belum dimasukan ke version control)
+- menggunakan commmand GIT ADD . untuk mengubah kondisi file dari modified menjadi staged ( kalau pakai . untuk semua file dalam folder) atau bisa menyebutkan nama filenya 
+git add indeks.html
+
+3. Commited (file sudah disimpan ke version control) - menggunakan git commit
+git commit -m "Commit pertama" ( fungsi -m untuk menambahkan pesan setiao revisi)
+
+(untuk melihat status file kita bisa dengan membuka git status)
