@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #f8f9fb;
+  color: #333;
+  line-height: 1.5;
+}
+
+header,
+footer {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d32f2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+header .title {
+  font-weight: 700;
+}
+nav a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: #d32f2f;
+  font-weight: 600;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.products {
+  display: grid;
+  gap: 15px;
+}
+.prod {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+}
+.prod h4 {
+  margin: 6px 0;
+}
+.tag {
+  background: #d32f2f;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.btn {
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.btn:hover {
+  background: #9a0007;
+}
+.btn.small {
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  font-size: 14px;
+}
+
+.error {
+  background: #ffebee;
+  border: 1px solid #f44336;
+  color: #c62828;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.success {
+  background: #e8f5e9;
+  border: 1px solid #4caf50;
+  color: #2e7d32;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.note {
+  font-size: 13px;
+  color: #666;
+}
+.muted {
+  font-size: 12px;
+  color: #999;
+}
